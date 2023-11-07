@@ -1,0 +1,189 @@
+@use './helper';
+@use './variables' as var;
+
+header {
+    background-color: var.$bcgFooter;
+    padding: 25px 0px;
+}
+
+
+.container {
+    .inner-header {
+        justify-content: space-between;
+
+        .nav-and-btn {
+            gap: 60px;
+        }
+
+        nav {
+            gap: 58px;
+
+            a {
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+
+        img {
+            fill: black;
+        }
+    }
+
+    main {
+        justify-content: center;
+
+        .right-main {
+            max-width: 540px;
+        }
+
+        h1 {
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 1.1;
+
+            span {
+                color: var.$textSecondaryColor;
+            }
+        }
+
+        p {
+            color: #86928B;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 1.2;
+            margin-top: 20px;
+        }
+
+        button {
+            justify-content: center;
+            color: var.$textSecondaryColor;
+            font-size: 20px;
+            font-weight: 500;
+            width: 225px;
+            height: 65px;
+            border: 1px solid var.$textSecondaryColor;
+            border-radius: 4px;
+            margin-top: 60px;
+        }
+    }
+
+    .products {
+        margin-top: 70px;
+
+        .header-products {
+            justify-content: space-between;
+
+            h1 {
+                font-size: 40px;
+                font-weight: 500;
+                line-height: 110%;
+            }
+
+            .right-header {
+                gap: 32px;
+            }
+
+            button {
+                font-size: 20px;
+                font-weight: 500;
+                background-color: var.$bcgSecondaryColor;
+                padding: 10px 20px;
+                color: var.$textMainColor;
+                border-radius: 20px;
+
+                &.active {
+                    color: white;
+                    background: #376B44;
+                }
+            }
+        }
+
+        .card-container {
+            .france-cards {
+                display: grid;
+                grid-template-columns: repeat(3, auto);
+                justify-content: center;
+                gap: 50px;
+                padding-top: 50px;
+
+                .card-item {
+                    background-color: var.$bcgFooter;
+                    padding: 20px;
+
+                    span {
+                        display: inline-block;
+                        color: #86928B;
+                        font-size: 18px;
+                        font-weight: 500;
+                        margin-top: 20px;
+                    }
+
+                    h1 {
+                        font-size: 30px;
+                        font-weight: 500;
+                        margin: 10px 0px;
+                    }
+
+                    h2 {
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+
+                    p {
+                        color: var.$textSecondaryColor;
+                        font-size: 24px;
+                        font-weight: 500;
+                        margin-top: 30px;
+                    }
+
+                    button {
+                        margin-top: 20px;
+                        width: 100%;
+                        color: var.$textSecondaryColor;
+                        font-size: 20px;
+                        font-weight: 500;
+                        background-color: transparent;
+                        padding: 20px 60px;
+                        border: 1px solid var.$textSecondaryColor;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.info {
+    background-image: url(../assets/bcg-command.png), linear-gradient(-90deg, white, black);
+    padding: 60px 0px;
+    margin-top: 70px;
+    background-size: cover;
+    .header-info {
+        gap: 20px;
+    }
+
+    h1 {
+        color: var.$bcgBody;
+        font-size: 40px;
+        font-weight: 500;
+        max-width: 421px;
+    }
+
+    p {
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 150%;
+        max-width: 421px;
+        margin-top: 21px;
+    }
+
+    button {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 20px 60px;
+        background: #EEDB6D;
+        margin-top: 60px;
+    }
+}
+
+@import './adaptive'

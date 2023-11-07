@@ -1,0 +1,54 @@
+{
+    "france-cards": [
+        {
+            "name": "Охота Амура",
+            "img": "https://2.downloader.disk.yandex.ru/preview/ea2c1667a9a72438689d7e8ed8f13944b60452fe33584816967c6bd64a83e028/inf/hKjiRHfb-gmBS0NNv0yN8yHT4RCp92n73u9swgM6ytj_7zg9EShe1KlbY0uESXk0fGX7z6DszLCELBn1jSIJoA%3D%3D?uid=1700688815&filename=03.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1700688815&tknv=v2&size=1360x679",
+            "author": "Марсель Руссо",
+            "cordinates": "Холст, масло (50х80) ",
+            "cost": "14 500 руб"
+        },
+        {
+            "name": "Дама с собачкой",
+            "img": "https://1.downloader.disk.yandex.ru/preview/4b30b766319ee4b1b5fd04307072070f39adb39dc5734d0749bc6b169739ec6a/inf/P7gZNM-TLpuFygzPAfC3TJ5FJnX_98sa1QEQu5I2Q0WeoMWnh5yODrSHIwnOzcIX72YrQElmw2xrLs7pm0rkuQ%3D%3D?uid=1700688815&filename=03%20%281%29.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1700688815&tknv=v2&size=1343x679",
+            "author": "Анри Селин",
+            "cordinates": "Акрил, бумага (50х80) ",
+            "cost": "16 500 руб"
+        },
+        {
+            "name": "Процедура",
+            "img": "https://2.downloader.disk.yandex.ru/preview/886a02b80745c4fe8477511766fcdc7c3d06df309e3bb0e092d6b61c18e4f658/inf/TxUsFsMMY8CrQb2dp0HTsZ5FJnX_98sa1QEQu5I2Q0UZn0-PziBENZf3Ai8Uh-ICfiHKePrTh6eSkOqjBmkaVA%3D%3D?uid=1700688815&filename=03%20%282%29.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1700688815&tknv=v2&size=1343x679",
+            "author": "Франсуа Дюпон",
+            "cordinates": "Цветная литография (40х60) ",
+            "cost": "20 000 руб"
+        },
+        {
+            "name": "Роза",
+            "img": "https://1.downloader.disk.yandex.ru/preview/b65dfb76bbe85d0ed9577566467f9a75668f8488a7c8728277b3812e6fcaf860/inf/NR_vQlEudz5pqi0sJsfgfkJkuaSDrUiuGtF6oCOuOQrGAYAlGdKrj0dCAdHPW8hBGeNcqF2p7Tkvjnji1oK2CQ%3D%3D?uid=1700688815&filename=03%20%283%29.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1700688815&tknv=v2&size=1343x679",
+            "author": "Луи Детуш",
+            "cordinates": "Бумага, акрил (50х80) ",
+            "cost": "12 000 руб"
+        },
+        {
+            "name": "Птичья трапеза",
+            "img": "https://3.downloader.disk.yandex.ru/preview/846cb86d20255c3f8343a6e446dc01a51cb6bfd10d7d4ce62be892c903a94e23/inf/ImJx0ZjjVppUQjZqteD1o55FJnX_98sa1QEQu5I2Q0VO8qAn5Z-jZbSVPbePOuHFN03bU9lAm9bvWmjsbTXWGw%3D%3D?uid=1700688815&filename=03%20%284%29.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1700688815&tknv=v2&size=1343x679",
+            "author": "Франсуа Дюпон",
+            "cordinates": "Цветная литография (40х60) ",
+            "cost": "22 500 руб"
+        },
+        {
+            "name": "Пейзаж с рыбой",
+            "img": "https://3.downloader.disk.yandex.ru/preview/1fcd733f79e0d0b3e579308ba01b818bbbde80a5cdeff5d3430569395244d553/inf/E80w7qFJQGDHvgIkPjeK0p5FJnX_98sa1QEQu5I2Q0VdNS1d8w8K47AAwcF3Zwvl_ITdfj1TUvOs1JNwbhYyGA%3D%3D?uid=1700688815&filename=03%20%285%29.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1700688815&tknv=v2&size=1343x679",
+            "author": "Пьер Моранж",
+            "cordinates": "Цветная литография (40х60) ",
+            "cost": "20 000 руб"
+        }
+    ],
+    "german-cards": {
+        "name": "german",
+        "id": 1
+    },
+    "enland-cards": {
+        "name": "England-cards",
+        "id": 1
+    }
+}

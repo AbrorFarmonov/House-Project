@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #F4F6F5;
+  background-color: #F4F6F5;
+  color: #2C2D35;
+}
+body .logo h1 {
+  color: #598D66;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+body .container {
+  max-width: 1440px;
+  margin: 0px auto;
+}
+body a {
+  color: #2C2D35;
+  text-decoration: none;
+}
+body button {
+  border: 0px;
+}
+body li {
+  list-style: none;
+}
+body input {
+  outline: none;
+}
+body .flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  background-color: #E1EDE6;
+  padding: 25px 0px;
+}
+
+.container .inner-header {
+  justify-content: space-between;
+}
+.container .inner-header .nav-and-btn {
+  gap: 60px;
+}
+.container .inner-header nav {
+  gap: 58px;
+}
+.container .inner-header nav a {
+  font-size: 20px;
+  font-weight: 500;
+}
+.container .inner-header img {
+  fill: black;
+}
+.container main {
+  justify-content: center;
+}
+.container main .right-main {
+  max-width: 540px;
+}
+.container main h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.container main h1 span {
+  color: #598D66;
+}
+.container main p {
+  color: #86928B;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+.container main button {
+  justify-content: center;
+  color: #598D66;
+  font-size: 20px;
+  font-weight: 500;
+  width: 225px;
+  height: 65px;
+  border: 1px solid #598D66;
+  border-radius: 4px;
+  margin-top: 60px;
+}
+.container .products {
+  margin-top: 70px;
+}
+.container .products .header-products {
+  justify-content: space-between;
+}
+.container .products .header-products h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 110%;
+}
+.container .products .header-products .right-header {
+  gap: 32px;
+}
+.container .products .header-products button {
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #D4E8D9;
+  padding: 10px 20px;
+  color: #2C2D35;
+  border-radius: 20px;
+}
+.container .products .header-products button.active {
+  color: white;
+  background: #376B44;
+}
+.container .products .card-container .france-cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+}
+.container .products .card-container .france-cards .card-item {
+  background-color: #E1EDE6;
+  padding: 20px;
+}
+.container .products .card-container .france-cards .card-item span {
+  display: inline-block;
+  color: #86928B;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.container .products .card-container .france-cards .card-item h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+.container .products .card-container .france-cards .card-item h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.container .products .card-container .france-cards .card-item p {
+  color: #598D66;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.container .products .card-container .france-cards .card-item button {
+  margin-top: 20px;
+  width: 100%;
+  color: #598D66;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 20px 60px;
+  border: 1px solid #598D66;
+}
+
+.info {
+  background-image: url(../assets/bcg-command.png), linear-gradient(-90deg, white, black);
+  padding: 60px 0px;
+  margin-top: 70px;
+  background-size: cover;
+}
+.info .header-info {
+  gap: 20px;
+}
+.info h1 {
+  color: #F4F6F5;
+  font-size: 40px;
+  font-weight: 500;
+  max-width: 421px;
+}
+.info p {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  max-width: 421px;
+  margin-top: 21px;
+}
+.info button {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 60px;
+  background: #EEDB6D;
+  margin-top: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */

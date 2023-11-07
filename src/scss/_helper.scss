@@ -1,0 +1,62 @@
+@use './variables' as var;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var.$bcgBody;
+
+    .logo {
+        h1 {
+            color: var.$textSecondaryColor;
+            font-size: 20px;
+            font-weight: 700;
+            margin-left: 8px;
+        }
+    }
+
+    .container {
+        max-width: 1440px;
+        margin: 0px auto;
+    }
+
+    background-color: var.$bcgBody;
+    color: var.$textMainColor;
+
+    a {
+        color: var.$textMainColor;
+        text-decoration: none;
+    }
+
+    button {
+        border: 0px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    input {
+        outline: none;
+    }
+
+    .flex-align-center {
+        display: flex;
+        align-items: center;
+    }
+}
